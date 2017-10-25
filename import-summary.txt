@@ -1,0 +1,81 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* build.xml
+* build/
+* build/classes.dex
+* build/classes/
+* build/classes/org/
+* build/classes/org/games/
+* build/classes/org/games/boulderdash/
+* build/classes/org/games/boulderdash/BotPosition.class
+* build/classes/org/games/boulderdash/BoulderDash.class
+* build/classes/org/games/boulderdash/Coord.class
+* build/classes/org/games/boulderdash/GameActivity$1.class
+* build/classes/org/games/boulderdash/GameActivity.class
+* build/classes/org/games/boulderdash/GameView$1.class
+* build/classes/org/games/boulderdash/GameView$GraphicsThread$1.class
+* build/classes/org/games/boulderdash/GameView$GraphicsThread.class
+* build/classes/org/games/boulderdash/GameView.class
+* build/classes/org/games/boulderdash/HelpActivity.class
+* build/classes/org/games/boulderdash/HighScoreActivity.class
+* build/classes/org/games/boulderdash/Prefs.class
+* build/classes/org/games/boulderdash/R$array.class
+* build/classes/org/games/boulderdash/R$attr.class
+* build/classes/org/games/boulderdash/R$color.class
+* build/classes/org/games/boulderdash/R$drawable.class
+* build/classes/org/games/boulderdash/R$id.class
+* build/classes/org/games/boulderdash/R$layout.class
+* build/classes/org/games/boulderdash/R$menu.class
+* build/classes/org/games/boulderdash/R$raw.class
+* build/classes/org/games/boulderdash/R$string.class
+* build/classes/org/games/boulderdash/R$xml.class
+* build/classes/org/games/boulderdash/R.class
+* build/classes/org/games/boulderdash/util/
+* build/classes/org/games/boulderdash/util/controlButton.class
+* dist/
+* dist/BoulderDash.apk
+* manifest.mf
+* nbproject/
+* nbproject/build-impl.xml
+* nbproject/genfiles.properties
+* nbproject/private/
+* nbproject/private/config.properties
+* nbproject/private/private.properties
+* nbproject/private/private.xml
+* nbproject/private/profiler/
+* nbproject/private/profiler/attach.xml
+* nbproject/private/profiler/configurations.xml
+* nbproject/project.properties
+* nbproject/project.xml
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

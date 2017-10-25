@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android">
+   <CheckBoxPreference
+      android:key="controls"
+      android:title="@string/controls_title"
+      android:summary="@string/controls_summary"
+      android:defaultValue="true" />
+   <CheckBoxPreference
+      android:key="sensor"
+      android:title="@string/sensor_title"
+      android:summary="@string/sensor_summary"
+      android:defaultValue="false" />
+</PreferenceScreen>

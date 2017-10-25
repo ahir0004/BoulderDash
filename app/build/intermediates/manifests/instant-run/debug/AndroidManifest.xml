@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.games.boulderdash" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/boulder_dash" >
+        <activity
+            android:name="org.games.boulderdash.BoulderDash"
+            android:label="BoulderDash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.games.boulderdash.GameActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="org.games.boulderdash.HelpActivity" >
+        </activity>
+        <activity android:name="org.games.boulderdash.HighScoreActivity" >
+        </activity>
+        <activity
+            android:name="org.games.boulderdash.Prefs"
+            android:label="@string/settings_title" >
+        </activity>
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="org.games.boulderdash.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

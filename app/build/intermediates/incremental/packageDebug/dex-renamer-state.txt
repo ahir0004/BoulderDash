@@ -1,0 +1,7 @@
+#Wed Oct 25 22:17:32 CEST 2017
+base.0=/home/macallan/AndroidStudioProjects/BoulderDash/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d6ed89786ccb21538d3556c04623f0879496b388
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/macallan/AndroidStudioProjects/BoulderDash/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_968db69b9c2eb4aadce38d26c736466c6d586578/classes.dex
+base.1=/home/macallan/AndroidStudioProjects/BoulderDash/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_968db69b9c2eb4aadce38d26c736466c6d586578
+file.0=/home/macallan/AndroidStudioProjects/BoulderDash/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d6ed89786ccb21538d3556c04623f0879496b388/classes.dex
